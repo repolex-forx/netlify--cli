@@ -1,0 +1,159 @@
+[2026-04-10T08:02:23Z] === ENRICH ITERATION 1 START | repo=netlify/cli sha=be7538b5 ===
+[2026-04-10T08:02:23Z] [iter=1] PHASE START: enrich repo=netlify/cli sha=be7538b5 runlog=/home/runner/work/forx/forx/storage/aggregate/lsp/logs/be7538b5-enrich-iter-001.log output=/home/runner/work/forx/forx/storage/aggregate/lsp/be7538b5114031aa84f11707f8e46a8cda7f824f.nq.gz
+[2026-04-10T08:04:40Z] [iter=1] Step 1: Loading AST into disk-backed store mem_mb=82 MB
+[2026-04-10T08:04:53Z] [iter=1] AST store loaded triples=1828611 load_secs=12 mem_mb=904 MB
+[2026-04-10T08:04:53Z] [iter=1] Step 2: Finding LSP targets mem_mb=904 MB
+[2026-04-10T08:04:54Z] [iter=1] LSP targets found call_sites=17372 imports=2154 extends=19 implements=2 secs=1
+[2026-04-10T08:04:55Z] [iter=1] Step 2.7: Building position index (one-shot, shared across resolvers) mem_mb=904 MB
+[2026-04-10T08:05:03Z] [iter=1] Position index built positions=126029 nodes_with_types=147735 secs=9 mem_mb=904 MB
+[2026-04-10T08:05:03Z] [iter=1] Step 3: Starting LSP resolution mem_mb=904 MB already_completed_types=[] already_completed_files=0
+[2026-04-10T08:05:03Z] [iter=1] Resolving target type target_type=call_site count=17372
+[2026-04-10T08:05:04Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=2.7 files_done=0 resolved=0 errors=0 current=tests/unit/lib/completion/get-autocompletion.test.ts
+[2026-04-10T08:08:05Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=5.7 files_done=2 resolved=7 errors=302 current=src/commands/base-command.ts
+[2026-04-10T08:10:07Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=7.7 files_done=3 resolved=15 errors=508 current=tests/unit/lib/edge-functions/registry.test.ts
+[2026-04-10T08:11:22Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=9.0 files_done=5 resolved=17 errors=636 current=tests/integration/commands/env/env-set.test.ts
+[2026-04-10T08:13:55Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=11.5 files_done=6 resolved=25 errors=894 current=tests/integration/commands/blobs/blobs-delete.test.ts
+[2026-04-10T08:15:12Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=12.8 files_done=7 resolved=34 errors=1024 current=tests/integration/commands/dev/dev-miscellaneous.test.ts
+[2026-04-10T08:20:47Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=18.4 files_done=8 resolved=56 errors=1589 current=tests/integration/commands/blobs/blobs-set.test.ts
+[2026-04-10T08:22:19Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=19.9 files_done=9 resolved=65 errors=1746 current=tests/integration/commands/create/create.test.ts
+[2026-04-10T08:24:32Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=22.1 files_done=10 resolved=68 errors=1970 current=tests/integration/commands/functions-with-args/functions-with-args.test.ts
+[2026-04-10T08:28:44Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=26.4 files_done=11 resolved=75 errors=2397 current=tests/integration/commands/deploy/deploy.test.ts
+[2026-04-10T08:36:09Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=33.8 files_done=12 resolved=119 errors=3150 current=tests/unit/utils/env/index.test.ts
+[2026-04-10T08:37:21Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=35.0 files_done=13 resolved=119 errors=3271 current=src/commands/env/env.ts
+[2026-04-10T08:38:00Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=35.6 files_done=14 resolved=119 errors=3338 current=tests/integration/commands/dev/responses.dev.test.ts
+[2026-04-10T08:39:52Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=37.5 files_done=15 resolved=121 errors=3526 current=src/lib/edge-functions/editor-helper.ts
+[2026-04-10T08:40:52Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=38.5 files_done=17 resolved=123 errors=3628 current=tests/integration/commands/dev/dev.zisi.test.ts
+[2026-04-10T08:43:13Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=40.8 files_done=18 resolved=131 errors=3865 current=src/commands/link/link.ts
+[2026-04-10T08:44:30Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=42.1 files_done=19 resolved=131 errors=3996 current=src/commands/login/login-check.ts
+[2026-04-10T08:45:22Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=43.0 files_done=22 resolved=133 errors=4083 current=src/commands/functions/functions.ts
+[2026-04-10T08:45:56Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=43.6 files_done=23 resolved=135 errors=4142 current=src/lib/functions/server.ts
+[2026-04-10T08:46:43Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=44.3 files_done=24 resolved=152 errors=4221 current=tests/integration/commands/env/env-list.test.ts
+[2026-04-10T08:47:15Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=44.9 files_done=26 resolved=154 errors=4275 current=src/commands/agents/agents-list.ts
+[2026-04-10T08:47:47Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=45.4 files_done=27 resolved=157 errors=4328 current=tests/integration/commands/dev/ai-gateway.test.ts
+[2026-04-10T08:49:00Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=46.6 files_done=28 resolved=167 errors=4452 current=tests/integration/commands/functions-serve/functions-serve.test.ts
+[2026-04-10T08:51:02Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=48.7 files_done=29 resolved=169 errors=4658 current=src/lib/edge-functions/registry.ts
+[2026-04-10T08:52:14Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=49.9 files_done=30 resolved=177 errors=4779 current=src/lib/functions/synchronous.ts
+[2026-04-10T08:52:57Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=50.6 files_done=32 resolved=181 errors=4851 current=tests/unit/utils/deploy/upload-source-zip.test.ts
+[2026-04-10T08:54:53Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=52.5 files_done=33 resolved=181 errors=5047 current=tests/integration/commands/functions-create/functions-create.test.ts
+[2026-04-10T08:55:59Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=53.6 files_done=34 resolved=181 errors=5158 current=tests/integration/commands/claim/claim.test.ts
+[2026-04-10T08:56:43Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=54.3 files_done=35 resolved=182 errors=5233 current=src/commands/recipes/common.ts
+[2026-04-10T08:58:04Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=55.7 files_done=38 resolved=185 errors=5369 current=tests/integration/commands/agents/agents-list.test.ts
+[2026-04-10T08:59:02Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=56.7 files_done=39 resolved=185 errors=5467 current=src/commands/deploy/deploy.ts
+[2026-04-10T09:01:46Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=59.4 files_done=40 resolved=190 errors=5744 current=tests/integration/commands/env/env-unset.test.ts
+[2026-04-10T09:03:02Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=60.6 files_done=41 resolved=198 errors=5872 current=src/commands/agents/agents-stop.ts
+[2026-04-10T09:03:40Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=61.3 files_done=43 resolved=200 errors=5937 current=tests/unit/utils/read-repo-url.test.ts
+[2026-04-10T09:04:32Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=62.1 files_done=45 resolved=200 errors=6024 current=src/commands/database/utils.ts
+[2026-04-10T09:06:32Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=64.1 files_done=47 resolved=234 errors=6227 current=src/utils/sign-redirect.ts
+[2026-04-10T09:11:06Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=68.7 files_done=50 resolved=238 errors=6691 current=tests/unit/utils/deploy/hash-fns.test.ts
+[2026-04-10T09:12:44Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=70.3 files_done=53 resolved=256 errors=6856 current=tests/integration/commands/clone/clone.test.ts
+[2026-04-10T09:13:51Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=71.5 files_done=54 resolved=256 errors=6969 current=tests/integration/commands/dev/edge-functions.test.ts
+[2026-04-10T09:15:25Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=73.0 files_done=55 resolved=256 errors=7129 current=src/recipes/ai-context/index.ts
+[2026-04-10T09:16:05Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=73.7 files_done=57 resolved=266 errors=7195 current=tests/integration/utils/site-builder.ts
+[2026-04-10T09:17:07Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=74.7 files_done=58 resolved=275 errors=7301 current=tests/integration/commands/agents/agents-create.test.ts
+[2026-04-10T09:18:21Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=76.0 files_done=59 resolved=280 errors=7425 current=tests/integration/framework-detection.test.ts
+[2026-04-10T09:20:47Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=78.4 files_done=60 resolved=280 errors=7671 current=src/utils/proxy.ts
+[2026-04-10T09:22:57Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=80.6 files_done=61 resolved=313 errors=7891 current=tests/integration/commands/build/build.test.ts
+[2026-04-10T09:24:20Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=82.0 files_done=62 resolved=316 errors=8032 current=tests/integration/commands/error-handling/error-handling.test.ts
+[2026-04-10T09:24:55Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=82.5 files_done=64 resolved=316 errors=8091 current=tests/integration/commands/link/link.test.ts
+[2026-04-10T09:25:49Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=83.4 files_done=65 resolved=316 errors=8182 current=tests/unit/lib/exec-fetcher.test.ts
+[2026-04-10T09:26:55Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=84.5 files_done=66 resolved=319 errors=8293 current=src/commands/status/status-hooks.ts
+[2026-04-10T09:27:48Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=85.4 files_done=68 resolved=319 errors=8383 current=tests/integration/commands/env/env-clone.test.ts
+[2026-04-10T09:29:03Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=86.7 files_done=69 resolved=327 errors=8509 current=tests/integration/serve/functions-go.test.ts
+[2026-04-10T09:29:34Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=87.2 files_done=71 resolved=327 errors=8561 current=tests/integration/commands/dev/dev.geo.test.ts
+[2026-04-10T09:30:32Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=88.2 files_done=73 resolved=327 errors=8659 current=tests/unit/recipes/ai-context/download-context-files.test.ts
+[2026-04-10T09:31:13Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=88.8 files_done=74 resolved=332 errors=8728 current=src/utils/deploy/hasher-segments.ts
+[2026-04-10T09:33:19Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=90.9 files_done=77 resolved=349 errors=8938 current=src/lib/functions/scheduled.ts
+[2026-04-10T09:34:02Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=91.7 files_done=81 resolved=357 errors=9011 current=tests/integration/utils/mock-api.ts
+[2026-04-10T09:34:34Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=92.2 files_done=83 resolved=362 errors=9065 current=tests/integration/commands/deploy/deploy-anonymous.test.ts
+[2026-04-10T09:36:09Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=93.8 files_done=84 resolved=367 errors=9224 current=tests/integration/commands/recipes/recipes.test.ts
+[2026-04-10T09:36:54Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=94.5 files_done=85 resolved=370 errors=9300 current=tests/integration/commands/init/init.test.ts
+[2026-04-10T09:37:45Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=95.4 files_done=86 resolved=370 errors=9386 current=tests/integration/commands/completion/completion-install.test.ts
+[2026-04-10T09:38:23Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=96.0 files_done=88 resolved=371 errors=9451 current=src/commands/open/index.ts
+[2026-04-10T09:38:58Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=96.6 files_done=90 resolved=377 errors=9509 current=tests/unit/commands/switch/switch.test.ts
+[2026-04-10T09:39:34Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=97.2 files_done=91 resolved=377 errors=9569 current=src/lib/functions/form-submissions-handler.ts
+[2026-04-10T09:40:08Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=97.8 files_done=94 resolved=407 errors=9627 current=tests/unit/utils/telemetry/validation.test.ts
+[2026-04-10T09:41:40Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=99.3 files_done=96 resolved=409 errors=9782 current=tests/integration/commands/dev/dev.exec.test.ts
+[2026-04-10T09:42:30Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=100.1 files_done=98 resolved=418 errors=9866 current=src/lib/exec-fetcher.ts
+[2026-04-10T09:43:37Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=101.2 files_done=100 resolved=424 errors=9979 current=src/commands/blobs/blobs-delete.ts
+[2026-04-10T09:44:14Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=101.8 files_done=103 resolved=428 errors=10041 current=tests/integration/commands/dev/dev-forms-and-redirects.test.ts
+[2026-04-10T09:46:40Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=104.3 files_done=104 resolved=435 errors=10288 current=tests/unit/commands/database/reset.test.ts
+[2026-04-10T09:47:13Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=104.8 files_done=106 resolved=435 errors=10344 current=src/lib/completion/generate-autocompletion.ts
+[2026-04-10T09:48:32Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=106.1 files_done=108 resolved=436 errors=10477 current=src/lib/functions/runtimes/rust/index.ts
+[2026-04-10T09:49:08Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=106.7 files_done=110 resolved=437 errors=10538 current=tests/integration/commands/env/env.test.ts
+[2026-04-10T09:50:53Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=108.5 files_done=111 resolved=437 errors=10717 current=tests/integration/serve/functions-rust.test.ts
+[2026-04-10T09:51:24Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=109.0 files_done=113 resolved=450 errors=10769 current=src/utils/build-info.ts
+[2026-04-10T09:52:00Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=109.6 files_done=116 resolved=469 errors=10829 current=src/commands/sites/sites-create.ts
+[2026-04-10T09:52:50Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=110.4 files_done=118 resolved=472 errors=10914 current=src/utils/framework-server.ts
+[2026-04-10T09:53:35Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=111.2 files_done=121 resolved=481 errors=10989 current=tests/integration/commands/dev/functions.test.ts
+[2026-04-10T09:54:23Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=112.0 files_done=122 resolved=491 errors=11071 current=tests/integration/commands/functions-invoke/functions-invoke.test.ts
+[2026-04-10T09:54:55Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=112.5 files_done=124 resolved=491 errors=11124 current=src/utils/temporary-file.ts
+[2026-04-10T09:56:51Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=114.5 files_done=127 resolved=491 errors=11320 current=src/commands/database/drizzle.ts
+[2026-04-10T09:57:49Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=115.4 files_done=130 resolved=501 errors=11418 current=tests/unit/lib/geo-location.test.ts
+[2026-04-10T09:58:29Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=116.1 files_done=131 resolved=502 errors=11486 current=tests/unit/lib/http-agent.test.ts
+[2026-04-10T09:59:10Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=116.8 files_done=134 resolved=502 errors=11554 current=src/lib/functions/netlify-function.ts
+[2026-04-10T10:00:10Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=117.8 files_done=136 resolved=508 errors=11656 current=src/commands/logout/index.ts
+[2026-04-10T10:00:55Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=118.5 files_done=139 resolved=514 errors=11732 current=tests/unit/commands/login/login-check.test.ts
+[2026-04-10T10:01:31Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=119.1 files_done=140 resolved=517 errors=11793 current=src/commands/agents/agents-show.ts
+[2026-04-10T10:02:17Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=119.9 files_done=141 resolved=520 errors=11870 current=src/commands/blobs/blobs-set.ts
+[2026-04-10T10:02:56Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=120.5 files_done=143 resolved=522 errors=11936 current=src/commands/database/connect.ts
+[2026-04-10T10:05:05Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=122.7 files_done=146 resolved=531 errors=12154 current=src/utils/prompts/prompt-messages.ts
+[2026-04-10T10:05:59Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=123.6 files_done=149 resolved=534 errors=12246 current=src/commands/database/psql-formatter.ts
+[2026-04-10T10:06:49Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=124.4 files_done=152 resolved=542 errors=12329 current=tests/integration/commands/dev/serve.test.ts
+[2026-04-10T10:07:31Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=125.1 files_done=155 resolved=548 errors=12400 current=tests/integration/utils/fixture.ts
+[2026-04-10T10:08:07Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=125.7 files_done=157 resolved=553 errors=12461 current=tests/unit/utils/scripted-commands.test.ts
+[2026-04-10T10:08:43Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=126.3 files_done=159 resolved=557 errors=12522 current=src/commands/dev/programmatic-netlify-dev.ts
+[2026-04-10T10:09:20Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=127.0 files_done=161 resolved=561 errors=12584 current=src/utils/telemetry/request.ts
+[2026-04-10T10:10:23Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=128.0 files_done=165 resolved=566 errors=12688 current=src/commands/logs/functions.ts
+[2026-04-10T10:11:04Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=128.7 files_done=168 resolved=570 errors=12757 current=src/recipes/blobs-migrate/index.ts
+[2026-04-10T10:11:36Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=129.2 files_done=171 resolved=575 errors=12812 current=src/commands/completion/completion.ts
+[2026-04-10T10:12:08Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=129.7 files_done=174 resolved=576 errors=12865 current=src/commands/switch/switch.ts
+[2026-04-10T10:12:38Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=130.2 files_done=177 resolved=589 errors=12916 current=src/commands/dev-exec/dev-exec.ts
+[2026-04-10T10:14:01Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=131.6 files_done=180 resolved=598 errors=13057 current=src/commands/database/status.ts
+[2026-04-10T10:14:31Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=132.1 files_done=184 resolved=599 errors=13108 current=src/commands/database/migrate.ts
+[2026-04-10T10:15:03Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=132.7 files_done=187 resolved=609 errors=13161 current=src/commands/build/build.ts
+[2026-04-10T10:15:37Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=133.2 files_done=191 resolved=613 errors=13219 current=src/lib/edge-functions/headers.ts
+[2026-04-10T10:16:38Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=134.2 files_done=195 resolved=615 errors=13321 current=tests/unit/lib/completion/generate-autocompletion.test.ts
+[2026-04-10T10:17:23Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=135.0 files_done=197 resolved=616 errors=13398 current=src/commands/recipes/recipes-list.ts
+[2026-04-10T10:18:03Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=135.7 files_done=200 resolved=617 errors=13464 current=tests/integration/__fixtures__/dev-server-with-edge-functions/src/edge-function.ts
+[2026-04-10T10:18:40Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=136.3 files_done=203 resolved=624 errors=13526 current=src/utils/deploy/util.ts
+[2026-04-10T10:19:23Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=137.0 files_done=206 resolved=624 errors=13599 current=src/commands/database/pg-client-executor.ts
+[2026-04-10T10:20:12Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=137.8 files_done=209 resolved=626 errors=13682 current=src/utils/prompts/env-clone-prompt.ts
+[2026-04-10T10:20:46Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=138.4 files_done=211 resolved=626 errors=13739 current=tests/integration/commands/envelope/envelope.test.ts
+[2026-04-10T10:21:29Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=139.1 files_done=213 resolved=626 errors=13811 current=src/commands/logs/build.ts
+[2026-04-10T10:22:21Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=140.0 files_done=217 resolved=631 errors=13899 current=src/commands/blobs/blobs-list.ts
+[2026-04-10T10:22:54Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=140.5 files_done=219 resolved=635 errors=13954 current=src/commands/open/open-site.ts
+[2026-04-10T10:23:30Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=141.1 files_done=222 resolved=641 errors=14015 current=tests/unit/utils/init/config-github.test.ts
+[2026-04-10T10:24:18Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=141.9 files_done=226 resolved=651 errors=14096 current=src/lib/functions/runtimes/js/builders/zisi.ts
+[2026-04-10T10:24:50Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=142.4 files_done=229 resolved=656 errors=14150 current=src/utils/websockets/index.ts
+[2026-04-10T10:25:26Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=143.0 files_done=232 resolved=659 errors=14211 current=src/utils/functions/functions.ts
+[2026-04-10T10:25:56Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=143.6 files_done=236 resolved=661 errors=14262 current=src/lib/spinner.ts
+[2026-04-10T10:26:34Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=144.2 files_done=239 resolved=661 errors=14326 current=src/utils/dev-server-banner.ts
+[2026-04-10T10:27:04Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=144.7 files_done=246 resolved=665 errors=14377 current=tests/integration/__fixtures__/dev-server-with-edge-functions/.netlify/_edge-functions/integration-iscA.ts
+[2026-04-10T10:27:39Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=145.3 files_done=249 resolved=668 errors=14436 current=src/utils/shell.ts
+[2026-04-10T10:28:16Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=145.9 files_done=254 resolved=675 errors=14498 current=src/lib/extensions.ts
+[2026-04-10T10:28:50Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=146.5 files_done=260 resolved=689 errors=14556 current=src/recipes/vscode/index.ts
+[2026-04-10T10:29:30Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=147.1 files_done=263 resolved=690 errors=14623 current=src/commands/claim/index.ts
+[2026-04-10T10:30:16Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=147.9 files_done=269 resolved=697 errors=14700 current=tests/integration/commands/dev/images.test.ts
+[2026-04-10T10:30:50Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=148.4 files_done=274 resolved=698 errors=14757 current=src/commands/logs/log-levels.ts
+[2026-04-10T10:31:21Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=149.0 files_done=279 resolved=704 errors=14809 current=src/commands/watch/index.ts
+[2026-04-10T10:31:56Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=149.6 files_done=286 resolved=707 errors=14869 current=tests/integration/commands/dev/dev.programmatic-netlify-dev.test.ts
+[2026-04-10T10:32:38Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=150.3 files_done=292 resolved=717 errors=14940 current=tests/integration/__fixtures__/monorepo/tools/build-plugin/src/index.ts
+[2026-04-10T10:33:10Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=150.8 files_done=300 resolved=721 errors=14994 current=tests/unit/utils/rules-proxy.test.ts
+[2026-04-10T10:33:54Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=151.5 files_done=310 resolved=728 errors=15068 current=tests/integration/commands/status/status.test.ts
+[2026-04-10T10:34:24Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=152.0 files_done=316 resolved=728 errors=15119 current=src/utils/redirects.ts
+[2026-04-10T10:34:59Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=152.6 files_done=328 resolved=738 errors=15178 current=src/utils/command-error-handler.ts
+[2026-04-10T10:35:30Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=153.1 files_done=338 resolved=741 errors=15229 current=src/lib/functions/utils.ts
+[2026-04-10T10:36:00Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=153.6 files_done=353 resolved=742 errors=15279 current=src/lib/functions/local-proxy.ts
+[2026-04-10T10:36:50Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=154.4 files_done=373 resolved=754 errors=15358 current=tests/integration/__fixtures__/dev-server-with-v2-functions/functions/custom-path-expression.js
+[2026-04-10T10:37:24Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=155.0 files_done=378 resolved=757 errors=15412 current=scripts/postinstall.js
+[2026-04-10T10:37:55Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=155.5 files_done=392 resolved=785 errors=15461 current=tests/integration/__fixtures__/dev-server-with-functions/functions/scheduled-isc.js
+[2026-04-10T10:38:06Z] [iter=1] Target type resolved target_type=call_site resolved=790 errors=15473 secs=9182 mem_mb=904 MB
+[2026-04-10T10:38:06Z] [iter=1] Resolving target type target_type=import_statement count=2154
+[2026-04-10T10:38:15Z] [iter=1] Target type resolved target_type=import_statement resolved=1111 errors=0 secs=9 mem_mb=904 MB
+[2026-04-10T10:38:15Z] [iter=1] Resolving target type target_type=extends_clause count=19
+[2026-04-10T10:38:17Z] [iter=1] Target type resolved target_type=extends_clause resolved=19 errors=0 secs=2 mem_mb=904 MB
+[2026-04-10T10:38:17Z] [iter=1] Resolving target type target_type=implements_clause count=2
+[2026-04-10T10:38:18Z] [iter=1] Target type resolved target_type=implements_clause resolved=2 errors=0 secs=2 mem_mb=904 MB
+[2026-04-10T10:38:32Z] [iter=1] Step 5: Writing final enrichment file triples=187744
+[2026-04-10T10:38:36Z] [iter=1] Enrichment file written path=/home/runner/work/forx/forx/storage/aggregate/lsp/be7538b5114031aa84f11707f8e46a8cda7f824f.nq.gz size_kb=4401
+[2026-04-10T10:38:36Z] [iter=1] PHASE END: enrich elapsed_s=9373 elapsed_min=156.2 total_triples=187744
