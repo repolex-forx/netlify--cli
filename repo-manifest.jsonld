@@ -10,7 +10,7 @@
       "git:hexsha": "be7538b5114031aa84f11707f8e46a8cda7f824f",
       "repolex:parseStatus": "parsed",
       "git:tagName": "v24.10.0",
-      "repolex:parsedAt": "2026-04-10T07:31:40.016035+00:00"
+      "repolex:parsedAt": "2026-04-10T07:50:21.098881+00:00"
     },
     {
       "@id": "https://repolex.ai/r/netlify/cli/commit/bee0bd8b15ee1a79603a4d29e785712a3d49b23f",
